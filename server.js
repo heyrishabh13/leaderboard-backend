@@ -10,11 +10,7 @@ app.use(express.json());
 
 // MongoDB connection
 mongoose.connect(
-  "mongodb+srv://heyrishabh13:fdyzvM0QOh5LmRms@cluster0.rjwuyra.mongodb.net/",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
+  "mongodb+srv://heyrishabh13:fdyzvM0QOh5LmRms@cluster0.rjwuyra.mongodb.net/leaderboard"
 );
 
 // User Schema
